@@ -11,7 +11,7 @@ public class Main {
 		int[] unSorted = new int[size];
 		for(int i = 0; i < size; i++)
 			unSorted[i] = rand.nextInt(50);
-		/*
+		
 		System.out.println("MergeSort");
 		printArray(unSorted);
 		System.out.println("------");
@@ -25,12 +25,11 @@ public class Main {
 		System.out.println("--------");
 		quickSort(unSorted, 0, 4);
 		printArray(unSorted);
-		*/
+		
 		BinarySearchTree bst = new BinarySearchTree();
 		bst.popRandData(50, 100);
 		PrintStream out = System.out;
 		bst.BFS(out);
-		
 		}
 	
 	
